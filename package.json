@@ -9,11 +9,7 @@
     "url": ""
   },
   "contributors": [],
-  "files": [
-    "server",
-    "client",
-    "test"
-  ],
+  "files": ["server", "client", "test"],
   "main": "lib/server/index.js",
   "keywords": [],
   "repository": {
@@ -22,8 +18,8 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 4 <= 8",
-    "npm": ">= 3 <= 5"
+    "node": "6.11.x",
+    "npm": "3.10.x"
   },
   "scripts": {
     "prestart": "clap build",
